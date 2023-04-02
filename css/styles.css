@@ -1,0 +1,31 @@
+h1, h2, h3, p { 
+    font-family: 'Outfit', sans-serif;
+}
+
+header, body { 
+    background-color: #fff;
+}
+
+header { 
+    padding: 3em;
+}
+
+img { 
+    border: solid 1px white; 
+}
+
+footer { 
+    padding: 5em;
+}
+
+#ourStoryCarousel { 
+    padding: 2em;
+}
+
+#menuDescription { 
+    padding: 2em;
+}
+
+nav {
+    padding: 10em; 
+}
