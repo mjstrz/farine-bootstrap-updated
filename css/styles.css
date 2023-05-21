@@ -40,6 +40,13 @@ nav {
     padding-right: 50px
 }
 
+.navbar-toggler {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 100px; */
+    
+}
+
 .copyright {
     padding-top: 2em;
 }
@@ -48,4 +55,37 @@ nav {
     text-decoration: none;
     color:dimgray;
     font-family: 'Outfit', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .farine-logo {
+    display: none;
+  }
+
+  .site-footer, .row-content {
+    display: flex;
+    float: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /* .btn-link, .social, .address {
+    align-items: center;
+    justify-content: center;
+  } */
+
+  /* .row-content {
+    
+    flex-direction: row;
+    
+  } */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5em;
+    padding: 20
+  }
 }
