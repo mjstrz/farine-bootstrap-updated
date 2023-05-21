@@ -29,3 +29,23 @@ footer {
 nav {
     padding: 10em; 
 }
+
+#farineNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-item {
+    padding-right: 50px
+}
+
+.copyright {
+    padding-top: 2em;
+}
+
+.btn-link {
+    text-decoration: none;
+    color:dimgray;
+    font-family: 'Outfit', sans-serif;
+}
